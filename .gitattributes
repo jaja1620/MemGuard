@@ -1,0 +1,11 @@
+* text=auto
+
+# Windows 批处理必须保持 CRLF，否则部分 cmd.exe 版本的标签/跳转会异常
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 源码与文档统一 LF
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf

@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ---- PyInstaller 产物（exe 通过 GitHub Release 分发，不入库） ----
+build/
+dist/
+*.spec
+
+# ---- 本地运行 / 测试产物 ----
+tests/matrix_run*.txt
+tests/full_matrix_report.json
+console.txt
+*.log
+*.json.bak
+
+# ---- 程序运行时数据（%LOCALAPPDATA%\MemGuard） ----
+config.json
+anchors.json
+audit.log
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
